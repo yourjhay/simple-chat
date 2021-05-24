@@ -1,4 +1,4 @@
-# A Chat app UI built using React and Talwind CSS
+# A Chat app UI built using React and Tailwind CSS
 I'm starting to learn tailwind CSS and it's awesome! 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
