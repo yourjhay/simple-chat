@@ -5,8 +5,8 @@ import Messages from './Messages';
 const Chat = () => {
     return (
         <div className="">
-            <div className="flex bg-white">
-                <div className="w-20 border-r-2 text-gray-500 h-screen flex flex-col items-center justify-between py-5">
+            <div className="flex bg-white dark:bg-gray-900">
+                <div className="w-20  text-gray-500 h-screen flex flex-col items-center justify-between py-5">
                     <div className="">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
@@ -37,18 +37,18 @@ const Chat = () => {
                         </svg>
                     </div>                    
                 </div>
-                <div className="w-80 h-screen bg-gray-100 p-2 hidden md:block">
+                <div className="w-80 h-screen dark:bg-gray-800 bg-gray-100 p-2 hidden md:block">
                     <div className="h-full overflow-y-auto">
-                        <div className="text-xl font-extrabold text-gray-600 p-3">Chikaa</div>
+                        <div className="text-xl font-extrabold text-gray-600 dark:text-gray-200 p-3">Chikaa</div>
                         <div className="search-chat flex p-3">
-                            <input className="input text-gray-700 text-sm p-3 focus:outline-none bg-gray-200  w-full rounded-l-md" type="text" placeholder="Search Messages"/>
-                            <div className="bg-gray-200 flex justify-center items-center pr-3 text-gray-400 rounded-r-md">
+                            <input className="input text-gray-700 dark:text-gray-200 text-sm p-3 focus:outline-none bg-gray-200 dark:bg-gray-700  w-full rounded-l-md" type="text" placeholder="Search Messages"/>
+                            <div className="bg-gray-200 dark:bg-gray-700 flex justify-center items-center pr-3 text-gray-400 rounded-r-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                 </svg>
                             </div>
                         </div>
-                        <div className="text-lg font-semibol text-gray-600 p-3">Recent</div>
+                        <div className="text-lg font-semibol text-gray-600 dark:text-gray-200 p-3">Recent</div>
                         <Conversation/>
                     </div>
                 </div>               
