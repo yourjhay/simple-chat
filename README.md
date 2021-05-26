@@ -3,8 +3,8 @@ I'm starting to learn tailwind CSS and it's awesome!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![CHAT UI 1](https://raw.githubusercontent.com/yourjhay/simple-chat/master/ChatUi1.png)
-![CHAT UI 2](https://raw.githubusercontent.com/yourjhay/simple-chat/master/ChatUi2.png)
+![CHAT UI1](https://raw.githubusercontent.com/yourjhay/simple-chat/master/ChatUi1.png)
+![CHAT UI2](https://raw.githubusercontent.com/yourjhay/simple-chat/master/ChatUi2.png)
 
 
 
